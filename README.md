@@ -1,1 +1,1 @@
-# CSC3348-Resources
+# CSC3348 Resources
