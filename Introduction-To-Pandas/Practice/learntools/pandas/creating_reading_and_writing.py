@@ -51,9 +51,9 @@ class ReadWineCsv(EqualityCheckProblem):
     _hint = ("Note that the csv file begins with an unnamed column of increasing integers. "
             "We want this to be used as the index. Check out the description of the `index_col` "
             "keyword argument in [the docs for `read_csv`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html).")
-    _expected = pd.read_csv('winemag-data-130k-v2.csv', index_col=0)
+    _expected = pd.read_csv('input/winemag-data-130k-v2.csv', index_col=0)
     _solution = CS(
-    "reviews = pd.read_csv('winemag-data-130k-v2.csv', index_col=0)"
+    "reviews = pd.read_csv('input/winemag-data-130k-v2.csv', index_col=0)"
     )
 
 class SaveAnimalsCsv(CodingProblem):
